@@ -1,0 +1,13 @@
+@WM_API_HostAddress = https://localhost:7230
+
+POST {{WM_API_HostAddress}}/geografia/altaterreno
+
+###
+
+GET {{WM_API_HostAddress}}/geografia/terreno/{id}
+
+###
+
+POST {{WM_API_HostAddress}}/geografia/unidades
+
+###
